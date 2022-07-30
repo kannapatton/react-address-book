@@ -1,0 +1,15 @@
+div{
+    display:flex;
+    justify-content: center;
+    background-color: gray;
+}
+ul{
+    border: 2px;
+    border-style: dotted;
+    padding-right: 50px;
+    padding-left:45px;
+    padding-top:15px;
+    margin-top:25px;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
