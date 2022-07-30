@@ -12,10 +12,11 @@ return(
             <img src={picture.thumbnail} alt=""></img>
             <h2>{name.first} {name.last}</h2>
             <p onClick={() => setIsHidden(!isHidden)}>
-                {isHidden? "Info" : 
+                {isHidden? "Show Details" :
                 `Email: ${email}
                 Phone: ${phone}
-                Cell: ${cell}`}
+                Cell: ${cell}`
+                }
             </p>
             
         </ul>
